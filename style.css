@@ -7,7 +7,7 @@ body{
 header{
     text-align: center;
     padding: 2px;
-    background: linear-gradient(to bottom, rgb(68, 155, 113), rgb(47, 155, 105));
+    background-image:url(fundo2.jpg);
     color:rgba(247, 247, 7, 0.925);
     font-family: "Bungee", sans-serif;
     border-radius: 10px;
