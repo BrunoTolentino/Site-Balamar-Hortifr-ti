@@ -23,7 +23,7 @@ nav > a{
 }
 nav > a:hover {
     text-shadow: 2px 2px 0px rgba(214, 211, 8, 0.315);
-    text-decoration: underline;
+    text-decoration: underline overline;
     box-shadow: 2px 2px 2px rgba(214, 211, 8, 0.315);
 }
 nav > a > img {
