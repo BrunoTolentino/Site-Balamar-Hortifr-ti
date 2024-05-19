@@ -38,12 +38,11 @@ main{
 footer{
    
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    margin:auto;
+    margin-left:0px;
     padding: 10px;
-    font-size: 1.2em;
-    text-decoration: underline;
+    font-weight: bolder;
+    color: darkgreen;
+    text-align: center;
 }   
 
 img{
@@ -54,4 +53,31 @@ img{
 #direitos{
     background-color: white;
     padding: 2px;
+    font-size: 1.2em;
+    text-decoration: underline;
+    text-align: center;
+}
+fieldset{
+    border: 2px solid black;
+    width: 1285px;
+    height: 205px;
+    background-image: url(fundo2.jpg);
+    color:rgba(247, 247, 7, 0.925);
+    font-family: "Bungee", sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px 0px;
+}
+ p{
+    text-align: justify;
+    margin-left: 300px;
+}
+p > a{
+    text-decoration: none;
+    color:rgba(7, 247, 247, 0.925);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p > a:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px darkgreen;
 }
