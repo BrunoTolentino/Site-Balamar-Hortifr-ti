@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balamar Hortifrúti</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&display=swap');
@@ -17,7 +18,20 @@
          </h1>
         
         <nav>
-            <a href="#">Página Inicial </a> <a href="#">Ofertas do Dia</a> <a href="#">Frutas</a> <a href="#">Verduras</a> <a href="#">Outros produtos</a> <a href="#">Carrinho</a> <a href="#">Minha Conta</a>
+            <span class="material-symbols-outlined"> home</span>
+            <a href="#">Página Inicial </a> 
+            <span class="material-symbols-outlined"> sell</span>
+            <a href="#">Ofertas do Dia</a> 
+            <span class="material-symbols-outlined"> nutrition</span>
+            <a href="#">Frutas</a>
+            <span class="material-symbols-outlined"> potted_plant</span>
+            <a href="#">Verduras</a>
+            <span class="material-symbols-outlined"> grocery</span>
+            <a href="#">Outros produtos</a> 
+            <span class="material-symbols-outlined"> garden_cart</span>
+            <a href="#">Carrinho</a>
+            <span class="material-symbols-outlined"> account_circle</span>
+            <a href="#">Minha Conta</a>
         </nav>
     </header>
     <main>
@@ -37,18 +51,23 @@
         <div>
             <fieldset>
                 <form action="#">
-                    <p>
+                    <p id="contatos">
+                        <span class="material-symbols-outlined"> Mail</span>
                         <label for="iEmail">Digite seu E-mail:</label>
                         <input type="email" name="email" id="iEmail" required maxlength="25" placeholder="Digite seu e-mail">
-                    
+                        
+                        <span class="material-symbols-outlined"> phone_in_talk</span>
                         <label for="iTel">Digite seu WhatsApp</label>
                         <input type="tel" name="Tel" id="iTel" required placeholder="Digite seu WhatsApp"> 
                         <input type="submit" value="Cadastrar"> <br>
                     
-                  
+                        <span class="material-symbols-outlined"> contacts</span>
                         Contatos: <br>
+                        <span class="material-symbols-outlined"> alternate_email</span>
                         E-mail de suporte: <a href="mailto:balamarhortifruti@suporte.com.br">balamarhortifruti@suporte.com.br</a> <br>
+                        <span class="material-symbols-outlined"> alternate_email</span>
                         E-mail de ouvidoria e sugestões: <a href="mailto:balamarhortifruti@sac.com.br">balamarhortifruti@sac.com.br</a> <br>
+                        <span class="material-symbols-outlined"> alternate_email</span>
                         E-mail comercial: <a href="mailto:balamarhortifruti@comercial.com.br">balamarhortifruti@comercial.com.br</a> <br>
                     </p>
                 </form>
