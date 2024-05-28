@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balamar Hortifrúti</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
@@ -22,12 +23,12 @@
             <a href="#">Página Inicial </a> 
             <span class="material-symbols-outlined"> sell</span>
             <a href="#">Ofertas do Dia</a> 
-            <span class="material-symbols-outlined"> nutrition</span>
-            <a href="#">Frutas</a>
-            <span class="material-symbols-outlined"> potted_plant</span>
-            <a href="#">Verduras</a>
-            <span class="material-symbols-outlined"> grocery</span>
-            <a href="#">Outros produtos</a> 
+            <span class="material-symbols-outlined" id="frutas"> nutrition</span>
+            <a href="#" id="frutas">Frutas</a>
+            <span class="material-symbols-outlined" id="verduras"> potted_plant</span>
+            <a href="#" id="verduras">Verduras</a>
+            <span class="material-symbols-outlined" id="outrosp"> grocery</span>
+            <a href="#" id="outrosp">Outros produtos</a> 
             <span class="material-symbols-outlined"> garden_cart</span>
             <a href="#">Carrinho</a>
             <span class="material-symbols-outlined"> account_circle</span>
@@ -35,16 +36,16 @@
         </nav>
     </header>
     <main>
-        <div class="pagina">
+        <span class="pagina">
             <img src="imagensFrutas/banana2.png" alt="Banana Prata"> 
             <img src="imagensFrutas/laranja2.png" alt="Laranja Lima"> 
            <img src="imagensFrutas/maracuja2.png" alt="Maracujá"> 
-        </div>
-        <div class="pagina">
+        </span>
+        <span class="pagina">
             <img src="imagensFrutas/batata2.png" alt="Cenoura">
             <img src="imagensFrutas/pepino2.png" alt="Batata"> 
             <img src="imagensFrutas/cenoura2.png" alt="Pepino"> 
-        </div>  
+        </span>  
     </main>
 
     <footer>
@@ -61,14 +62,16 @@
                         <input type="tel" name="Tel" id="iTel" required placeholder="Digite seu WhatsApp"> 
                         <input type="submit" id="botao" value="Cadastrar"> <br>
                     
-                        <span class="material-symbols-outlined"> contacts</span>
-                        Contatos: <br>
-                        <span class="material-symbols-outlined"> alternate_email</span>
-                        E-mail de suporte: <a href="mailto:balamarhortifruti@suporte.com.br">balamarhortifruti@suporte.com.br</a> <br>
-                        <span class="material-symbols-outlined"> alternate_email</span>
-                        E-mail de ouvidoria e sugestões: <a href="mailto:balamarhortifruti@sac.com.br">balamarhortifruti@sac.com.br</a> <br>
-                        <span class="material-symbols-outlined"> alternate_email</span>
-                        E-mail comercial: <a href="mailto:balamarhortifruti@comercial.com.br">balamarhortifruti@comercial.com.br</a> <br>
+                        <div id="suporte">
+                            <span class="material-symbols-outlined"> contacts</span>
+                            Contatos: <br>
+                            <span class="material-symbols-outlined"> alternate_email</span>
+                            E-mail de suporte: <a href="mailto:balamarhortifruti@suporte.com.br">balamarhortifruti@suporte.com.br</a> <br>
+                            <span class="material-symbols-outlined"> alternate_email</span>
+                            E-mail de ouvidoria e sugestões: <a href="mailto:balamarhortifruti@sac.com.br">balamarhortifruti@sac.com.br</a> <br>
+                            <span class="material-symbols-outlined"> alternate_email</span>
+                            E-mail comercial: <a href="mailto:balamarhortifruti@comercial.com.br">balamarhortifruti@comercial.com.br</a> <br>
+                        </div>
                     </p>
                 </form>
             </fieldset>
