@@ -65,6 +65,7 @@ span.material-symbols-outlined{
 main{
     background-image: url(imagensFrutas/textura.png);
     margin: 0px;
+    border-radius: 10px;
 }
 footer{
    
@@ -106,6 +107,14 @@ fieldset{
 }
 .tel,.email{
     display: inline-block;
+}
+#suporte{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+.indent{
+    text-indent: 15px;
 }
 #suporte a:link{
     color: rgba(7, 247, 247, 0.925);
