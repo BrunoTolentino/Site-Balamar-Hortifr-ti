@@ -1,84 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Balamar Hortifrúti</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-queries.css">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&display=swap');
-     </style>
-</head>
-<body>
+      @import url("https://fonts.googleapis.com/css2?family=Anton&family=Bungee&display=swap");
+    </style>
+  </head>
+  <body>
     <header>
-        <h1>
-            Balamar Hortifrúti   <img src="imagensFrutas/logo2.png" alt="Logomarca">    
-         </h1>
-        
-        <nav>
-            <span class="material-symbols-outlined">home</span>
-            <a href="#">Página Inicial </a> 
-            <span class="material-symbols-outlined"> sell</span>
-            <a href="#">Ofertas do Dia</a> 
-            <span class="material-symbols-outlined" id="frutas"> nutrition</span>
-            <a href="#" id="frutas">Frutas</a>
-            <span class="material-symbols-outlined" id="verduras"> potted_plant</span>
-            <a href="#" id="verduras">Verduras</a>
-            <span class="material-symbols-outlined" id="outrosp"> grocery</span>
-            <a href="#" id="outrosp">Outros produtos</a> 
-            <span class="material-symbols-outlined"> garden_cart</span>
-            <a href="#">Carrinho</a>
-            <span class="material-symbols-outlined"> account_circle</span>
-            <a href="#">Minha Conta</a>
-        </nav>
-        <nav id="cel"><span class="material-symbols-outlined">
-            menu
-            </span></nav>
+      <h1>
+        Balamar Hortifrúti <img src="imagensFrutas/logo2.png" alt="Logomarca" />
+      </h1>
+
+      <nav>
+        <span class="material-symbols-outlined">home</span>
+        <a href="#">Página Inicial </a>
+        <span class="material-symbols-outlined"> sell</span>
+        <a href="#">Ofertas do Dia</a>
+        <span class="material-symbols-outlined" id="frutas"> nutrition</span>
+        <a href="#" id="frutas">Frutas</a>
+        <span class="material-symbols-outlined" id="verduras">
+          potted_plant</span
+        >
+        <a href="#" id="verduras">Verduras</a>
+        <span class="material-symbols-outlined" id="outrosp"> grocery</span>
+        <a href="#" id="outrosp">Outros produtos</a>
+        <span class="material-symbols-outlined"> garden_cart</span>
+        <a href="#">Carrinho</a>
+        <span class="material-symbols-outlined"> account_circle</span>
+        <a href="#">Minha Conta</a>
+      </nav>
+      <nav id="cel"><span class="material-symbols-outlined"> menu </span></nav>
     </header>
     <main>
-        <span class="pagina">
-            <img src="imagensFrutas/banana2.png" alt="Banana Prata"> 
-            <img src="imagensFrutas/laranja2.png" alt="Laranja Lima"> 
-            <img src="imagensFrutas/maracuja2.png" alt="Maracujá"> 
-            <img src="imagensFrutas/batata2.png" alt="Cenoura">
-            <img src="imagensFrutas/pepino2.png" alt="Batata"> 
-            <img src="imagensFrutas/cenoura2.png" alt="Pepino"> 
-        </span>  
+      <span class="pagina">
+        <img src="imagensFrutas/banana2.png" alt="Banana Prata" />
+        <img src="imagensFrutas/laranja2.png" alt="Laranja Lima" />
+        <img src="imagensFrutas/maracuja2.png" alt="Maracujá" />
+        <img src="imagensFrutas/batata2.png" alt="Cenoura" />
+        <img src="imagensFrutas/pepino2.png" alt="Batata" />
+        <img src="imagensFrutas/cenoura2.png" alt="Pepino" />
+      </span>
     </main>
 
     <footer>
-        <div>
-            <fieldset>
-                <form action="#">
-                    <p id="contatos">
-                        <span class="material-symbols-outlined"> Mail</span>
-                        <label for="iEmail">Digite seu E-mail:</label>
-                        <input type="email" name="email" id="iEmail" required maxlength="25" placeholder="Digite seu e-mail">
-                        
-                        <span class="material-symbols-outlined"> phone_in_talk</span>
-                        <label for="iTel">Digite seu WhatsApp</label>
-                        <input type="tel" name="Tel" id="iTel" required placeholder="Digite seu WhatsApp"> 
-                        <input type="submit" id="botao" value="Cadastrar"> <br>
-                    
-                        <div id="suporte">
-                            <span class="material-symbols-outlined"> contacts</span>
-                            Contatos: <br>
-                            <span class="material-symbols-outlined"> alternate_email</span>
-                            E-mail de suporte: <a href="mailto:balamarhortifruti@suporte.com.br">balamarhortifruti@suporte.com.br</a> <br>
-                            <span class="material-symbols-outlined"> alternate_email</span>
-                            E-mail de ouvidoria e sugestões: <a href="mailto:balamarhortifruti@sac.com.br">balamarhortifruti@sac.com.br</a> <br>
-                            <span class="material-symbols-outlined"> alternate_email</span>
-                            E-mail comercial: <a href="mailto:balamarhortifruti@comercial.com.br">balamarhortifruti@comercial.com.br</a> <br>
-                        </div>
-                    </p>
-                </form>
-            </fieldset>
+      <fieldset>
+        <form action="#">
+            <!--Email-->
+        <div class="tel">
+          <span class="material-symbols-outlined"> Mail</span>
+          <label for="iEmail">Digite seu E-mail:</label>
+          <input
+            type="email"
+            name="email"
+            id="iEmail"
+            required
+            maxlength="25"
+            placeholder="Digite seu e-mail"
+          />
         </div>
-        <span id="direitos">Balamar Hortifruti® Todos os Direitos Reservados</span>
+            <!--Telefone-->
+        <div class="email">
+          <span class="material-symbols-outlined"> phone_in_talk</span>
+          <label for="iTel">Digite seu WhatsApp</label>
+          <input
+            type="tel"
+            name="Tel"
+            id="iTel"
+            required
+            placeholder="Digite seu WhatsApp"
+          />
+        </div>
+          <input type="submit" id="botao" value="Cadastrar" /> <br />
+
+          <div id="suporte">
+            <span class="material-symbols-outlined"> contacts</span>
+            Contatos: <br />
+            <span class="material-symbols-outlined"> alternate_email</span>
+            E-mail de suporte:
+            <a href="mailto:balamarhortifruti@suporte.com.br"
+              >balamarhortifruti@suporte.com.br</a
+            >
+            <br />
+            <span class="material-symbols-outlined"> alternate_email</span>
+            E-mail de ouvidoria e sugestões:
+            <a href="mailto:balamarhortifruti@sac.com.br"
+              >balamarhortifruti@sac.com.br</a
+            >
+            <br />
+            <span class="material-symbols-outlined"> alternate_email</span>
+            E-mail comercial:
+            <a href="mailto:balamarhortifruti@comercial.com.br"
+              >balamarhortifruti@comercial.com.br</a
+            >
+            <br />
+          </div>
+        </form>
+      </fieldset>
+      <span id="direitos"
+        >Balamar Hortifruti® Todos os Direitos Reservados</span
+      >
     </footer>
     <script src="scipt.js"></script>
-</body>
+  </body>
 </html>
