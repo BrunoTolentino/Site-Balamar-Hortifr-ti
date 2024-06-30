@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /*@media screen and (min-width:768px) {*/
 
 *{box-sizing: border-box;}
@@ -8,40 +10,44 @@ html,body{
     padding: 0px;
     height: 100vh;
     width: 100vw;
+    font-family: "Bungee", sans-serif;
 }
 body{
     background-image:url(fundo.jpg);
     padding: 5px;
-   
     }
 header{
     text-align: center;
     background-image:url(fundo2.jpg);
     color:rgba(247, 247, 7, 0.925);
-    font-family: "Bungee", sans-serif;
     border-radius: 10px;
-    height: 20vh;
-    overflow: hidden;
+    padding: 10px 0;
+    overflow: hidden;   
+    text-transform: uppercase;
 }
 header > h1 > img{
     max-width: 50px;
 }
 h1{
-    font-size: 1.7em;
+    font-size: 30px;
     margin: 0px;
     padding: 0px;
+    letter-spacing: -1px;
+    font-weight: 800;
 }
 nav > a{
     margin: auto;
     color:rgba(247, 247, 7, 0.925);
     text-decoration:none;
+    letter-spacing: -1px;
+    font-weight: 400;
+    font-size: 18px;
 }
 nav > a:hover {
-    text-shadow: 2px 2px 0px rgba(214, 211, 8, 0.315);
+    text-shadow: 2px 2px 0px #ffffff2d;
     text-decoration: underline;
     text-decoration-thickness: 10%;
     text-underline-offset: 8x;
-    box-shadow: 1px 1px 1px rgba(214, 211, 8, 0.315);
 }
 nav > a > img {
  max-width: 10px;
@@ -68,12 +74,12 @@ main{
     border-radius: 10px;
 }
 footer{
-   
-    font-family: Arial, Helvetica, sans-serif;
     margin-left:0px;
     padding: 10px;
-    color: darkgreen;
+    color: rgb(14, 116, 14);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
     text-align: center;
+    letter-spacing: -1px;
 }   
 
 img{
@@ -88,9 +94,10 @@ img{
     font-size: 1.2em;
     text-decoration: underline;
     text-align: center;
-    font-weight: bolder;
+    font-weight: 500;
     margin-top:10px;
     display: inline-block;
+    text-transform: uppercase;
 }
 fieldset{
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -98,7 +105,6 @@ fieldset{
     max-height: 425px;
     background-image: url(fundo2.jpg);
     color:rgba(247, 247, 7, 0.925);
-    font-family: "Bungee", sans-serif;
     border-radius: 10px;
     margin: 0px auto;
 }
@@ -119,7 +125,7 @@ fieldset{
 #suporte a:link{
     color: rgba(7, 247, 247, 0.925);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
 }
 #suporte a:link:hover{
     text-decoration: underline;
